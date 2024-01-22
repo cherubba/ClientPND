@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    width: 45%;
+    height: 50%;
+    background-color: rgba(4, 4, 4, 0.5);
+  
+    
+    z-index: 1000;
+}
+
+.modalcontent {
+    background-color: rgb(66, 65, 65);
+    padding: 50px;
+}
+
+.modalheader, .modal-footer {
+    padding: 20px;
+}
+
+.modalbody {
+    padding: 30px;
+    line-height: 35px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
